@@ -198,4 +198,4 @@ function render() {
 }
 
 document.querySelector(".settings_button").addEventListener("click", show); // вешаю событие на кнопку настройки
-getData();
+getData(); // получаю данные с сервера
