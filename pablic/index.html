@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="editing">
+        <div class="editing_window"></div>
+        <div class="show_window">
+            <div class="showOff">&#10006</div>
+            <h5>Скрыть/Показать</h5>
+            <div class="seyyings_checkbox">
+            <input type="checkbox" id="firstName" onchange="showOn('firstName')">
+            <label for="firstName">firstName</label>
+            </div>
+            <div class="seyyings_checkbox">
+            <input type="checkbox" id="lastName" onchange="showOn('lastName')">
+            <label for="lastName">lastName</label>
+            </div>
+            <div class="seyyings_checkbox">
+            <input type="checkbox" id="about" onchange="showOn('about')">
+            <label for="about">about</label>
+            </div>
+            <div class="seyyings_checkbox">
+            <input type="checkbox" id="eyeColor" onchange="showOn('eyeColor')">
+            <label for="eyeColor">eyeColor</label>
+            </div>
+        </div>
+    </div>
+    <div id="settings">
+        <button class="settings_button">Настройки</button>
+    </div>
+    <div id="category"></div>
+    <div id="page"></div>
+    <script type="text/javascript" src="skript.js"></script>
+  </body>
+</html>
